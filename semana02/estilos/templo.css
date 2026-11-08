@@ -38,13 +38,16 @@ picture {
 img {
     width: 600px;
     height: auto;
+    box-sizing: border-box;
+    border: solid white 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 section {
     background-color: #d9d9d9;
     margin: 0 0 30px;
     padding: 30px;
-    line-height: 1rem;
+    line-height: 2rem;
 }
 
 section p {
@@ -55,4 +58,8 @@ section h2 {
     margin-bottom: 15px;
     border-bottom: 1px solid #333;
     padding-bottom: 10px;
+}
+
+section ul {
+    padding-left: 20px;
 }
